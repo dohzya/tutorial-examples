@@ -26,4 +26,10 @@ module.exports = {
   solidity: {
     version: "0.8.11",
   },
+  networks: {
+    // To compile with zksolc, this must be the default network.
+    hardhat: {
+      zksync: true,
+    }
+  },
 };
